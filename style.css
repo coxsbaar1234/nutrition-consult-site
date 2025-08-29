@@ -1,5 +1,6 @@
 /* Global styles */
 
+
 * {
   margin: 0;
   padding: 0;
@@ -159,4 +160,29 @@ footer {
 .hero p {
   position: relative;
   z-index: 1;
+}
+
+/* Additional fixes */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.btn:hover {
+  background: #255b43;
+}
+
+@media (max-width: 768px) {
+  .feature {
+    flex: 0 0 100%;
+  }
+}
+
+.hero::before {
+  background: rgba(0, 0, 0, 0.55);
 }
