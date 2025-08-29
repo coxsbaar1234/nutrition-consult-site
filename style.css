@@ -59,7 +59,10 @@ nav {
 .hero h1 {
   font-size: 2.5rem;
   margin-bottom: 15px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+
 }
+
 
 .hero p {
   font-size: 1.1rem;
@@ -67,10 +70,14 @@ nav {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+
 }
+
 
 .btn {
   display: inline-block;
+  
   background: #2c6a4f;
   color: #fff;
   padding: 10px 20px;
